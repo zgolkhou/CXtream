@@ -50,7 +50,7 @@ if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
     hash_tag_list = ["BLM"]
-    fetched_tweets_filename = "tweets.json"
+    fetched_tweets_filename = "tweets.csv"
 
     twitter_streamer = TwitterStreamer()
     twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
