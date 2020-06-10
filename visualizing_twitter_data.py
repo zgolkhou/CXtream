@@ -134,9 +134,9 @@ if __name__ == '__main__':
     #print(df.head(10))
 
     # Time Series
-    #time_likes = pd.Series(data=df['len'].values, index=df['date'])
-    #time_likes.plot(figsize=(16, 4), color='r')
-    #plt.show()
+    time_likes = pd.Series(data=df['len'].values, index=df['date'])
+    time_likes.plot(figsize=(16, 4), color='r')
+    plt.show()
     
     #time_favs = pd.Series(data=df['likes'].values, index=df['date'])
     #time_favs.plot(figsize=(16, 4), color='r')
