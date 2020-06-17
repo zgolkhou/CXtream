@@ -129,7 +129,7 @@ if __name__ == '__main__':
     print(np.max(df['likes']))
 
     # Get the number of retweets for the most retweeted tweet:
-    print(np.max(df['retweets']))
+    #print(np.max(df['retweets']))
     
     #print(df.head(10))
 
