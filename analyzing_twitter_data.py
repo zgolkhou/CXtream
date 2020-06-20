@@ -7,7 +7,7 @@ from tweepy import Stream
 import twitter_credentials
 import numpy as np
 import pandas as pd
-
+import matplotlib.pyplot
 
 # # # # TWITTER CLIENT # # # #
 class TwitterClient():
