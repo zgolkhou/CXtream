@@ -116,8 +116,8 @@ if __name__ == '__main__':
 
     tweets = api.user_timeline(screen_name="BarackObama", count=20)
 
-    #print(dir(tweets[0]))
-    #print(tweets[0].retweet_count)
+    print(dir(tweets[0]))
+    print(tweets[0].retweet_count)
 
     df = tweet_analyzer.tweets_to_data_frame(tweets)
     
