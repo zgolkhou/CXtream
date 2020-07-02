@@ -2,6 +2,7 @@ from tweepy.streaming import StreamListener
 from tweepy import OAuthHandler
 from tweepy import Stream
  
+import numpy as np
 import twitter_credentials
  
 # # # # TWITTER STREAMER # # # #
