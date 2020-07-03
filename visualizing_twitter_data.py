@@ -123,7 +123,7 @@ if __name__ == '__main__':
     df = tweet_analyzer.tweets_to_data_frame(tweets)
 
     # Get average length over all tweets:
-    print(np.mean(df['len']))
+    #print(np.mean(df['len']))
 
     # Get the number of likes for the most liked tweet:
     #print(np.max(df['likes']))
