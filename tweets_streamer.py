@@ -3,7 +3,6 @@ from tweepy import OAuthHandler
 from tweepy import Stream
  
 import numpy as np
-import pandas as pd
 import twitter_credentials
  
 # # # # TWITTER STREAMER # # # #
