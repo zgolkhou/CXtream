@@ -143,7 +143,7 @@ if __name__ == '__main__':
     plt.show()
 
     time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
-    #time_retweets.plot(figsize=(16, 4), color='r')
+    time_retweets.plot(figsize=(16, 4), color='r')
     #plt.show()
 
     # Layered Time Series:
