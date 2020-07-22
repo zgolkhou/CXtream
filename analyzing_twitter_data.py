@@ -120,6 +120,6 @@ if __name__ == '__main__':
 
     df = tweet_analyzer.tweets_to_data_frame(tweets)
     
-    print(df.head(100))
+    print(df.head(10))
 
 
