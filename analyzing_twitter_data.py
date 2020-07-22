@@ -5,7 +5,6 @@ from tweepy import OAuthHandler
 from tweepy import Stream
  
 import twitter_credentials
-import numpy as np
 import pandas as pd
 import scipy as sp
 import matplotlib.pyplot
