@@ -138,9 +138,9 @@ if __name__ == '__main__':
     #time_likes.plot(figsize=(16, 4), color='r')
     #plt.show()
     
-    time_favs = pd.Series(data=df['likes'].values, index=df['date'])
-    time_favs.plot(figsize=(16, 4), color='r')
-    plt.show()
+    #time_favs = pd.Series(data=df['likes'].values, index=df['date'])
+    #time_favs.plot(figsize=(16, 4), color='r')
+    #plt.show()
 
     #time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
     #time_retweets.plot(figsize=(16, 4), color='r')
