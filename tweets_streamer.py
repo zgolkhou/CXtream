@@ -51,6 +51,8 @@ if __name__ == '__main__':
  
     # Authenticate using config.py and connect to Twitter Streaming API.
     hash_tag_list = ["AmazonHelp"]
+    # we can use @XboxSupport instead of @AmazonHelp.
+   
     fetched_tweets_filename = "tweets.csv"
 
     twitter_streamer = TwitterStreamer()
