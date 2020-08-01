@@ -125,7 +125,7 @@ if __name__ == '__main__':
     #print(np.mean(df['len']))
 
     # Get the number of likes for the most liked tweet:
-    #print(np.max(df['likes']))
+    print(np.max(df['likes']))
 
     # Get the number of retweets for the most retweeted tweet:
     #print(np.max(df['retweets']))
