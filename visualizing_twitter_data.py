@@ -150,5 +150,5 @@ if __name__ == '__main__':
     #time_likes.plot(figsize=(16, 4), label="likes", legend=True)
 
     #time_retweets = pd.Series(data=df['retweets'].values, index=df['date'])
-    time_retweets.plot(figsize=(16, 4), label="retweets", legend=True)
+    #time_retweets.plot(figsize=(16, 4), label="retweets", legend=True)
     plt.show()
