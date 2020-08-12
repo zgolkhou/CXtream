@@ -53,8 +53,8 @@ if __name__ == '__main__':
     hash_tag_list = ["AmazonHelp"]
     # we can use @XboxSupport instead of @AmazonHelp.
    
-    fetched_tweets_filename = "tweets.csv"
-    # we can change the file format to .txt
+    fetched_tweets_filename = "tweets.txt"
+    # we can change the file format to .csv
 
     twitter_streamer = TwitterStreamer()
     twitter_streamer.stream_tweets(fetched_tweets_filename, hash_tag_list)
